@@ -1,2 +1,15 @@
 # message-notification
-Provides multiple message notifications demo
+提供一些常见的消息通知使用方法(钉钉、rabbitmq)
+
+其他类型消息通知会慢慢加入进来
+
+## 钉钉
+内容包含：发送工作通知、群消息、普通消息，其他功能暂未使用，有空也会一一提供出来
+消息类型包含：文本消息、图片消息、语音消息、文件消息、链接消息、OA消息、卡片消息、markdown消息
+
+### 需要引入钉钉sdk 下载解压后在项目中引入jar包即可使用
+https://open-dev.dingtalk.com/download/openSDK/java
+
+### 配置方面
+前往钉钉开放平台，进行开发者认证
+然后点击应用开发，创建小程序，之后会生成对应的一些凭证，用这些凭证进行配置即可
