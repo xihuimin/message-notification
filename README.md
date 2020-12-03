@@ -22,8 +22,11 @@ https://open-dev.dingtalk.com/download/openSDK/java
 
 ### 发布订阅者模式
 发布订阅者模式多了交换机(Exchange)和绑定(Binding)的概念
+
 订阅：队列绑定交换机
+
 发布：交换机会将消息转发到绑定了该交换机的队列上
+
 **交换机类型有4种：**
 1. fanout：转发消息到所有绑定队列
 2. headers：根据发送的消息内容中的headers属性进行匹配
