@@ -1,14 +1,10 @@
 package com.xi.notification.rabbitmq;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.xi.notification.AbstractTest;
 import com.xi.notification.model.User;
 import com.xi.notification.service.Producer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.util.concurrent.CountDownLatch;
 
 /**
  * <p>
